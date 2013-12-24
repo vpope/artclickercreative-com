@@ -1,0 +1,250 @@
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.sub-nav {
+    float: left;
+}
+.content {
+    overflow: hidden;
+    background-color: #FFF;
+    width: 705px;
+}
+.storyboard, 
+.commercial,
+.editorial,
+.conceptual {
+    float: left;
+    width: 347px;
+}
+.storyboard {
+    margin-right: 10px;
+}
+.storyboard,
+.commercial {
+    margin-bottom: 10px;
+}
+
+.conceptual {
+    margin-left: 10px;
+}
+.navigation {
+    padding-top: 40px;
+    text-align: right;
+    padding: 58px 3px 0 0;
+    overflow: hidden;
+    top: 0;
+    float: left;
+}
+.navigation ul {
+    overflow: hidden;
+    float: right;
+    list-style: none;
+}
+.navigation ul li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #FFFFFF;
+    padding-right: 10px;
+    border-right: 2px solid #000;
+}
+.navigation ul li a{
+    text-align: left;
+    color: #0f6cb6;
+    font: 18px Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.navigation ul li:last-child {
+    border-right: none;   
+}
+.image-item img {
+    display: block;
+}
+
+.header {
+    padding-top: 150px;
+    width: 100%;
+}
+.logo {
+    padding-bottom: 20px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.image-item {
+    position: relative; 
+    width: 347px;
+    height: 241px;
+    overflow: hidden;
+}
+
+
+.image-hover {
+    bottom: 0; 
+    position: absolute;
+    width: 100%; 
+    display: none;
+    color: #fff;
+    text-shadow: 0 1px #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-hover-inner {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.image-item:hover .image-hover {
+    display: block;
+}
+
+.container {
+    overflow: hidden; 
+    width: 920px;
+    padding: 20px;
+}
+
+.image-item {
+    float: left;
+}
+div {
+    color: #9ec54e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;    
+}
+.footer {
+    width: 910px;
+    padding-top: 40px;
+}
+.container {
+    float: right;
+}
+.body-wrapper {
+    overflow: hidden;
+}
+.footer {
+    overflow: hidden;
+}
+.column {
+    float: left;
+    width: 33%;
+}
+a {
+    color: #0f6cb6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.modal-text {
+    margin: 15px;
+    float: left;
+    clear: both;
+    text-decoration: underline;
+}
+.submit-cancel {
+    text-align: center;
+}
+.modal,
+.modal-picture {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.modal-contents {
+    overflow: hidden;
+    width: 600px;
+    height: auto;
+    margin: 100px auto 0 auto;
+    background: #fff;
+    border: solid 1px #000;
+    position: relative;
+    z-index: 1;
+}
+
+.modal-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.input {
+    overflow: hidden;
+}
+.input-value {
+    float: left;
+}
+.input-label {
+    float: left;
+}
+.image {
+    width: 175px;
+    height: 140px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    float: left;
+}
+.image img {
+    width: 100%;
+}
+.image:hover img {
+    width: 150%;
+    position: relative;
+    z-index: 1; 
+    margin-left: -25%;
+    margin-top: -25%;
+}
+.start-the-modal {
+    text-decoration: underline;
+}
+.parent-nav {
+    overflow: hidden;
+    padding-bottom: 78px;
+}
+.logo,
+.navigation {
+    padding-top: 100px;
+}
+.catergories,
+.footer {
+    background: #303030;
+}
+.catergories ul li {
+    font-size: 19px;
+}
+.catergories ul {
+    padding: 16px;
+}
+.pictures {
+    padding-left: 28px;
+}
+.footer {
+    float: right;
+}
+.catergories {
+    height: 100%;
+}
+.modal-image {
+    width: 250px;
+    height: 350px;
+    background: #FF00FF;
+    border: solid 1px #000;
+}
+.picture-description {
+    overflow: hidden;
+}
+.modal-image,
+.modal-description {
+    margin: 15px;
+    float: left;
+}
+.modal-description {
+    text-decoration: none;
+    color: #000;
+}
