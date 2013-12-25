@@ -17,7 +17,7 @@ Dispatcher::applyFilter('_callable', function($self, $params, $chain) {
 		Media::type('default', null, array(
 			'view' => 'lithium\template\View',
 			'paths' => array(
-				'layout' => '{:library}/views/layouts/{:layout}.{:type}.php',
+				'layout' => '{:library}/views/layouts/admin.{:layout}.{:type}.php',
 				'template' => '{:library}/views/admin/{:controller}/{:template}.{:type}.php'
 			)
 		));
