@@ -42,6 +42,13 @@ if ($locales = Environment::get('locales')) {
  */
 Router::connect('/', 'Pages::view');
 
+$options = array('continue' => true);
+
+Router::connect('/admin', array(
+	'admin' => true,
+	'controller' => 'Dashboard'
+), $options);
+
 /**
  * Connect the rest of `PagesController`'s URLs. This will route URLs like `/pages/about` to
  * `PagesController`, rendering `/views/pages/about.html.php` as a static page.
