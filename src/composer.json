@@ -1,0 +1,13 @@
+{
+    "name": "artclickercreative-com",
+    "version": "0.0.1",
+    "config": {
+        "vendor-dir": "libraries"
+    },
+    "require": {
+	"unionofrad/lithium": "dev-master",
+        "doctrine/orm": ">=2.1",
+        "doctrine/migrations": "dev-master",
+        "mariano/li3_doctrine2": "dev-master"
+    }
+}
