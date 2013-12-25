@@ -38,3 +38,5 @@ ehthumbs.db
 Thumbs.db
 src/libraries
 composer.lock
+src/app/resources/tmp/cache/*.*
+src/app/resources/tmp/cache/templates/*.*
