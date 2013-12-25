@@ -18,8 +18,9 @@
                     Test
                 </div>
             </div>
-            <?php include "includes/footer.php"; ?>
+            
         </div>
+        <?php include "includes/footer.php"; ?>
         <?php include "includes/javascript.php"; ?>
     </body>
 </html>
