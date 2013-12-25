@@ -35,6 +35,7 @@
     overflow: hidden;
     top: 0;
     float: left;
+    margin-top: 15px;
 }
 .navigation ul {
     overflow: hidden;
@@ -51,7 +52,7 @@
 }
 .navigation ul li a{
     text-align: left;
-    color: #0f6cb6;
+    color: #9ec54e;
     font: 18px Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
@@ -110,13 +111,9 @@
     float: left;
 }
 div {
-    color: #9ec54e;
+    color: #0f6cb6;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;    
-}
-.footer {
-    width: 910px;
-    padding-top: 40px;
 }
 .container {
     float: right;
@@ -130,16 +127,18 @@ div {
 .column {
     float: left;
     width: 33%;
+    border-right: 2px solid #404040;
+}
+.column:last-child {
+    border-right: none;
 }
 a {
-    color: #0f6cb6;
+    color: #9ec54e;
     font-family: Arial, Helvetica, sans-serif;
 }
 .modal-text {
     margin: 15px;
-    float: left;
-    clear: both;
-    text-decoration: underline;
+    overflow: hidden;
 }
 .submit-cancel {
     text-align: center;
@@ -214,6 +213,7 @@ a {
 .catergories,
 .footer {
     background: #303030;
+    border-radius:5px;
 }
 .catergories ul li {
     font-size: 19px;
@@ -223,9 +223,7 @@ a {
 }
 .pictures {
     padding-left: 28px;
-}
-.footer {
-    float: right;
+    margin-top: 34px;
 }
 .catergories {
     height: 100%;
@@ -235,6 +233,7 @@ a {
     height: 350px;
     background: #FF00FF;
     border: solid 1px #000;
+    float: left;
 }
 .picture-description {
     overflow: hidden;
@@ -242,9 +241,30 @@ a {
 .modal-image,
 .modal-description {
     margin: 15px;
-    float: left;
 }
 .modal-description {
     text-decoration: none;
     color: #000;
+}
+.bio-wrapper {
+    overflow: hidden;
+}
+.portrait, 
+.bio {
+    padding: 15px;
+}
+.portrait {
+    float: left;    
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text-column {
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
